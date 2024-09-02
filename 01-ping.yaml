@@ -1,5 +1,5 @@
 - name: ping the server
-  hosts: web # hosts ansible wnat to connect
-  task:    # list of task 
-  - name: ping the server
-    ansible.builtin.ping:
+  hosts: web
+  task:
+    - name: ping the server
+      ansible.builtin.ping:
